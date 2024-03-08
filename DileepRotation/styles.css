@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .container {
+    height: 100vh;
+    background-image: url('bg.avif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dileep {
+    max-width: 100%;
+    height: auto;
+    animation: rotateMan 0.01s infinite linear 
+    alternate;
+    
+  }
+
+  
+  @keyframes rotateMan {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+ 
+  
